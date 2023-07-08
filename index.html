@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Form</title>
+    <link rel="stylesheet" href="styleassign5.css" type="text/css">
+</head>
+<body>
+    <fieldset>
+        <legend>Registration form</legend>
+        <form id="form">
+            <div id="maindiv">
+                <div id="username">
+                    <label>
+                        Name: &#128100
+                        <input required type="text" placeholder="first name">
+                        <input type="text" placeholder="middle name">
+                        <input type="text" placeholder="last name">
+                    </label>      
+                </div>
+    
+                <div id="gender">Gender:
+                    <label class="gender1">
+                         Male<input type="radio" name="Hello" value="hello" >
+                        Female<input type="radio" name="Hello" value="hello" >
+                        Other<input type="radio" name="Hello" value="hello" >
+                    </label>
+                    <label>DOB <input id="dob" type="date"></label>
+                </div>
+    
+                <div class="userdetails">
+                    <label class="email">Email  &#9993<input class="same" type="email" placeholder="Enter your email address"></label>
+                    <label class="phone">Phone &#9743<input class="same" type="tel" size="10"  pattern="[0-9]{10}" name="Phone" required minlength="10" maxlength="10" placeholder="+91"></label>
+                   
+                    <label class="address">Address&#127968<input class="same" type="text" placeholder="Enter your address"></label>
+                    <label class="city">City:<input class="same" type="text" placeholder="Enter your city name"></label>
+                    <label class="state">State:<input class="same" type="text" placeholder="Enter your state"></label>
+                    <label class="country">Country:&#9873<input class="same" type="text" placeholder="Enter your country"></label>
+                </div>
+    
+            </div>
+
+            
+            <div class="hobbies">
+                <h3>Hobbies &#10084</h3>
+                <label><input type="checkbox">Music</label>
+                <label><input type="checkbox">Sports</label>
+                <label><input type="checkbox">Travel</label>
+                <label><input type="checkbox">Movies</label>
+            </div>
+
+            <div class="skill">
+                <h3>Technical Skills &#128526</h3>
+                <label for="">
+                    <input type="checkbox" name="Hellos" value="hellos"><span>HTML</span><br>
+                    <input type="checkbox" name="Hellos" value="hellos"><span>CSS</span><br>
+                    <input type="checkbox" name="Hellos" value="hellos"><span>Java Script</span><br>
+                    <input type="checkbox" name="Hellos" value="hellos"><span>React</span><br>
+                    <input type="checkbox" name="Hellos" value="hellos"><span>Node js</span><br>
+                    <input type="checkbox" name="Hellos" value="hellos"><span>MERN</span>
+                </label>
+            </div>
+
+            <div class="question">
+                <p class="p">1. Are you already working as a software developer<p>
+                    <label>
+                        <input type="radio" name="hi" value="hi"><span>Yes</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="hi" value="hi"><span>No</span>  
+                    </label>
+            </div>
+
+            <div class="question">
+                <p class="p">2. Would you prefer to..<p>
+                    <div class="question2">
+
+                        <label>
+                            <input type="radio" name="hii" value="hii"><span>work for a startup</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="hii" value="hii"><span>start your own business</span>
+                        </label>
+
+                        <label><input type="radio" name="hii" value="hii"><span>work for a multinational corporation</span>
+                        </label>
+
+                        <label><input type="radio" name="hii" value="hii"><span>freelance</span>
+                        </label>
+                        
+                        <label><input type="radio" name="hii" value="hii"><span>work for a medium-siged company</span></label>
+
+                        <label><input type="radio" name="hii" value="hii"><span>Other</span></label>     
+
+                    </div>
+                      
+            </div>
+
+            <label> <input id="submit" class="button" type="submit"></label>
+            <label><input id="reset" class="button" type="reset"></label>
+
+            <marquee behavior="" direction="right"><h3>Thank You &#128522</h3></marquee>
+
+            
+    
+        </form>
+
+    </fieldset>
+   
+</body>
+</html>

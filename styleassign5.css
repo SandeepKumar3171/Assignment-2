@@ -1,0 +1,169 @@
+*{  
+    margin: 0;
+}
+fieldset{
+    border: 3px solid rgba(242, 30, 15, 0.942);
+    background-image: url("./thumbnail7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:whitesmoke;
+    
+}
+form{
+    border: 3px solid black;
+    padding: 15px;
+}
+
+legend{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(36, 2, 80);
+}
+
+ #username{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    color:whitesmoke;
+} 
+
+#username input{
+    border-radius: 7px;
+    opacity: 0.5;
+    padding: 5px;
+     width: 120px;
+     background-color:whitesmoke;
+    
+}
+#gender{
+    font-size: 20px;
+    font-weight: 700;
+}
+#gender label{
+    margin-left: 20px;
+    font-size: 15px;
+    
+}
+#gender label input{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+#dob{
+    padding: 5px;
+    width: 170px;
+    border-radius: 7px;
+    opacity: 0.5;
+    background-color:whitesmoke;
+}
+
+
+.userdetails{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.same{
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 5px;
+    width: 70vh;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.email input{
+    margin-left: 20px;
+    width: 395px;
+    opacity: 0.5;
+    background-color:whitesmoke;
+}
+.phone input{
+    margin-left: 18px;
+    width: 395px;
+    opacity: 0.5;
+    background-color:whitesmoke;
+}
+.address input{
+    width: 390px;
+    opacity: 0.5;
+    background-color:whitesmoke;
+}
+.city input{
+    margin-left: 55px;
+    width: 392px;
+    opacity: 0.5;
+    background-color:whitesmoke;
+}
+.state input{
+    margin-left: 49px;
+    width: 392px;
+    opacity: 0.5;
+    background-color:whitesmoke;
+}
+.country input{
+    opacity: 0.5;
+    width: 393px;
+    margin-bottom: 30px;
+    background-color:whitesmoke;
+}
+.hobbies{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.hobbies input{
+    cursor: pointer;
+}
+.skill{
+    margin-bottom: 10px;
+}
+.skill input{
+    cursor: pointer;
+}
+.question{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width:40vw;
+
+}
+.question label input{
+    cursor: pointer;
+}
+.question .p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.question2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.button{
+    width: 77px;
+    margin-top: 10px;
+    padding: 5px 12px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+#submit:hover{
+    background-color: rgb(6, 193, 6);
+}
+#reset{
+    background-color: red;
+}
+#reset:hover{
+    background-color: orange;
+}
